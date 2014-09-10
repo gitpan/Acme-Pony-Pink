@@ -13,20 +13,20 @@ SYNOPSIS
 DESCRIPTION
     This module turns a Perl script into a picture of a pink pony.
 
-    The picture is executable via "perl -x".
+    The picture is executable via `perl -x`.
 
   Unconstrutive Constructor
-    "new"
+    `new`
         Returns the invocant.
 
   Method
-    "ponify($input, $output)"
-        The input is a Perl script; the output is a GIF file. (No, the "F"
-        in "GIF" does not stand for "file".)
+    `ponify($input, $output)`
+        The input is a Perl script; the output is a GIF file. (No, the "F" in
+        "GIF" does not stand for "file".)
 
-        Input and output may be filehandles, file names, or scalar
-        references if you just want to play with strings. The input source
-        is required; the default output destination is STDOUT.
+        Input and output may be filehandles, file names, or scalar references
+        if you just want to play with strings. The input source is required;
+        the default output destination is STDOUT.
 
 BUGS
     Please report any bugs to someone who cares.
@@ -40,8 +40,8 @@ AUTHOR
 COPYRIGHT AND LICENCE
     This software is copyright (c) 2012 by Toby Inkster.
 
-    This is free software; you can redistribute it and/or modify it under
-    the same terms as the Perl 5 programming language system itself.
+    This is free software; you can redistribute it and/or modify it under the
+    same terms as the Perl 5 programming language system itself.
 
 DISCLAIMER OF WARRANTIES
     THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
